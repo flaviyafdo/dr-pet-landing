@@ -1,0 +1,262 @@
+.bc{
+    height: 100%;
+      bottom: 0;
+      position: fixed;
+      z-index: 1;
+      top: 0;
+      left: 0;
+      
+      width: 100%;
+    background-color:hwb(29 74% 0%);
+  }
+  
+  .belt{
+    background-color: hsl(27, 29%, 31%);
+    position:absolute;
+    top: 9%;
+    height: 90px;
+    width: 100%;
+    overflow:i;
+  }
+  
+  .hrule{
+    
+    border: 1px dashed hwb(35 28% 20%);
+  }
+  
+  .paw{
+    padding-left: -700px;
+    padding-top:-100px;
+    clear: left;
+    float: left;
+    left: -235px;
+    
+    width: 90%;
+    height: 90%;
+    position: fixed;
+    opacity: 0.1;
+    transform: rotate(-35deg);
+    position:fixed;
+    display: block;
+  
+  }
+  
+  .dogimg{
+    padding-top: 0px;
+    padding-left: 1100px;
+  }
+  
+  .dog2img{
+    padding-top: -500px;
+    padding-left: 1150px;
+    width: 1150px;
+    height: 1150px;
+    right: 20px;
+    opacity: 0.3;
+  }
+  
+  .logo{
+    width: 230px;
+    height: 230px;
+    padding-left: 90px;
+    opacity: 1;
+    position: fixed;
+    padding-top: 27px;
+  }
+  
+  .logo2{
+    width: 100px;
+    height: 100px;
+    padding-left: 510px;
+    padding-top: 770px;
+    opacity: 1;
+    position: fixed;
+    
+    display: block;
+  }
+  
+  .phone{
+    width: 30px;
+    height: 30px;
+    padding-left: 270px;
+    padding-top: 24px;
+    opacity: 1;
+    position: fixed;
+    
+    display: block;
+  }
+  
+  .no{
+    display: inline-block;
+    position:fixed;
+    padding-left: 330px;
+    padding-top:-10px;
+    
+  
+  }
+  .phoneno{
+    font-size: 23px;
+    font-weight: bold;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  
+  @-webkit-keyframes swinging{
+    0%{-webkit-transform: rotate(10deg);}
+    50%{-webkit-transform: rotate(-5deg)}
+    100%{-webkit-transform: rotate(10deg);}
+  }
+  
+  @keyframes swinging{
+    0%{transform: rotate(10deg);}
+    50%{transform: rotate(-5deg)}
+    100%{transform: rotate(10deg);}
+  }
+  
+  .swingimage{
+    -webkit-transform-origin: 50% 0;
+    transform-origin: 50% 0;
+    -webkit-animation: swinging 3.5s ease-in-out forwards infinite;
+    animation: swinging 3.5s ease-in-out forwards infinite;
+  }
+  
+  .c{
+    
+    font-size: 600px;
+    text-align: left;
+   
+    padding-left: 150px;
+  }
+  .letter{
+   
+    position:absolute;
+    float: left;
+    transform: translate(0%, -23%);
+    
+  }
+  
+  .con{
+    position: relative;
+    display: inline-block;
+  }
+  
+  .letter1{
+    color: hwb(0 31% 64%);
+    position:absolute;
+    float: left;
+    transform: translate(97%, 70%);
+    font-family:fantasy;
+  
+  }
+  .cone{
+    font-size: 400PX;
+    text-align: left;
+   
+    padding-left: 150px;
+  
+  }
+  
+  .letter2{
+    color: hwb(0 31% 64%);
+    position:absolute;
+    float: left;
+    transform: translate(143%, 111%);
+    font-size: 300px;
+    font-size: 400px;
+    font-family:fantasy;
+    
+  
+  }
+  .letter3{
+    color: hwb(0 31% 64%);
+    position:absolute;
+    float: left;
+    transform: translate(139%, 152%);
+    font-family:fantasy;
+  
+  }
+  .letter4{
+    color: hwb(0 31% 64%);
+    position:absolute;
+    float: left;
+    transform: translate(209%, 300%);
+    font-family:Brush Script MT, Brush Script Std, cursive;
+  
+  }
+  
+  .letter5{
+    color:hsl(43, 83%, 18%);
+    position:absolute;
+    float: left;
+    transform: translate(205%, 635%);
+    font-family:unset;
+    font-weight:bolder;
+    font-family:cursive;
+   
+  
+  }
+  
+  
+  .datap{
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 400px;
+  }
+  .c1{
+    font-size: 150px;
+    text-align: left;
+    color: #282626;
+    padding-left: 150px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+  
+  }
+  
+  .c2{
+    font-size: 100px;
+    text-align: left;
+   
+    padding-left: 150px;
+  
+  }
+  .c4{
+    font-size: 50px;
+    text-align: left;
+   
+    padding-left: 150px;
+  
+  }
+  .c5{
+    font-size: 25px;
+    text-align: left;
+   
+    padding-left: 150px;
+  
+  }
+  .login{
+    width: 650px;
+    height: 210px;
+    padding-left: 1135px;
+    padding-top: -120px;
+    position: absolute;
+    transform: translate(20%, -33%);
+  }
+  
+  .circle{
+    width:700px;
+    height: 770px;
+    position:fixed;
+    display: inline-block;
+    opacity: 0.1;
+    padding-left: -10px;
+    transform: translate(-50%, -53%);
+  }
+  
+  
+  .circle2{
+    width:400px;
+    height: 300px;
+    position:fixed;
+    display: inline-block;
+    opacity: 0.3;
+    padding-left: -10px;
+    transform: translate(80%, 265%);
+  }
